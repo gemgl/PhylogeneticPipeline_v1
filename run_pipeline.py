@@ -18,6 +18,7 @@ def main():
         raise FileNotFoundError(f"No se encontró Clustal Omega en {clustalomega_path}")
 
     procesar_secuencias(archivo_secuencias, 26000, 32000)
+    #HOLA QUE TAL
 
     alinear(clustalomega_path, archivo_secuencias_filtradas)
 
